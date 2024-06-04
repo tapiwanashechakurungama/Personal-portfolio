@@ -388,6 +388,9 @@ body.dark-theme {
   font-weight: 400;
   color: var(--text-color-light);
   margin-bottom: 1rem;
+  padding: 10px;
+  box-shadow: 0 0 0.3rem black;
+  border-radius: 20px;
 }
 
 .home__info-description,
@@ -549,11 +552,11 @@ body.dark-theme {
 
 .services__card{
   position: relative;
-  width: 228px;
+  width: 250px !important;
   height: 322px;
   background-color: var(--container-color);
   text-align: center;
-  padding: 3.5rem 1rem;
+  padding: 2rem;
   border-radius: 7.25rem;
   transition: background .4s; /* for dark mode animation */
 }
@@ -571,30 +574,24 @@ body.dark-theme {
   font-weight: var(--font-semi-bold);
   margin-bottom: 1.5rem;
 }
-
-.services__border{
-  width: 248px;
-  height: 342px;
-  border: 1.8px solid var(--text-color-light);
-  border-radius: 7.75rem;
-  position: absolute;
-  inset: 0;
-  left: -10px;
-  margin: auto;
-  z-index: -1;
-  transition: opacity .6;
-  opacity: 0;
-  transition: .8s;
+.projects__content img{
+  height: 30vh;
+}
+.footer a{
+  text-decoration: none;
+}
+.footer a:hover{
+  color: blue;
 }
 
 .services__card:hover i{
   transform: rotateY(360deg);
 }
-
-.services__card:hover .services__border{
-  opacity: 1;
-  transition: .8s;
+.services__card:hover{
+  box-shadow: 0 0 0.3rem blue;
+  transition: transform all ease .8s;
 }
+
 /*=============== PROJECTS ===============*/
 .projects__container{
   overflow: initial;
@@ -1177,7 +1174,7 @@ body.dark-theme {
   }
 
   .home__title{
-    font-size: var(--biggest-font-size);
+    font-size: 1.95rem;
   }
   .home__blob{
     width: 400px;
