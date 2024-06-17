@@ -172,7 +172,7 @@ body.dark-theme {
 }
 
 .section {
-  padding-block: 2.5rem;
+  padding-block: 2rem;
 }
 
 .section__border {
@@ -310,8 +310,8 @@ body.dark-theme {
 .home__title{
   text-align: center;
   font-size: var(--biggest-font-size);
-  letter-spacing: .3px;
   margin-bottom: .5rem;
+  margin-right: 30px;
 }
 
 .home__blob{
