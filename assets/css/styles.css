@@ -20,8 +20,8 @@
   /* Change the first number */
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
   --gradient-color: linear-gradient(180deg,
-                      hsla(356, 48%, 72%, 0),
-                      hsla(356, 65%, 65%, 1));
+                      hsla(107, 48%, 72%, 0),
+                      rgb(13, 60, 87));
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -404,6 +404,14 @@ body.dark-theme {
   padding: 10px;
   box-shadow: 0 0 0.3rem black;
   border-radius: 20px;
+}
+.btn2{
+  color: black !important;
+  opacity: 0.6;
+  transition: all ease 0.5s;
+}
+.btn2:hover{
+  opacity: 1;
 }
 
 .home__info-description,
