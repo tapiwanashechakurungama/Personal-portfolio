@@ -19,20 +19,20 @@
 
   /* Change the first number */
   /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
-  --gradient-color: linear-gradient(180deg, #95daa300, #51ff26);
+  --gradient-color: linear-gradient(180deg, #95daa300, #21ace3);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Roboto", sans-serif;
-  --title-font: "Lora", serif;
+  --body-font: "Pop";
+  --title-font: "Pop";
   --biggest-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
-  --normal-font-size: 0.938rem;
-  --small-font-size: 0.813rem;
-  --smaller-font-size: 0.75rem;
-  --tiny-font-size: 0.625rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 1rem;
+  --smaller-font-size: 0.85rem;
+  --tiny-font-size: 0.75rem;
 
   /*========== Font weight ==========*/
   --font-medium: 500;
