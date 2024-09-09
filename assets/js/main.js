@@ -2,7 +2,7 @@
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
-
+  year = document.getElementById("year")
 /*===== MENU SHOW =====*/
 /* Validate if constant exists */
 if (navToggle) {
@@ -212,3 +212,8 @@ sr.reveal(`.skills__content:nth-child(2), .contact__content:nth-child(2)`, {
   origin: "right",
 });
 sr.reveal(`.qualification__content, .services__card`, { interval: 100 });
+
+const current = new Date().getFullYear()
+
+
+year.innerText = current;
