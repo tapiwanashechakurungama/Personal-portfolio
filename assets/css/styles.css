@@ -111,21 +111,12 @@ img {
   cursor: pointer;
   transition: color 0.3s;
 }
-/* .cv{
-  position: fixed;
-  bottom: 100px;
-  right: 25px;
-  color: black;
-  padding: 8px;
-  border-radius: 20px;
-  box-shadow: 0 0 0.6rem black;
-} */
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
   --title-color: hsl(207, 4%, 95%);
   --text-color: hsl(207, 4%, 65%);
-  --body-color: hsl(207, 4%, 10%);
+  --body-color: hsl(240, 6%, 10%);
   --container-color: hsl(207, 4%, 12%);
 }
 

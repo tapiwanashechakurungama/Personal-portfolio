@@ -60,58 +60,8 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
 });
 
 /*=============== EMAIL JS ===============*/
-const contactForm = document.getElementById("contact-form");
-contactName = document.getElementById("contact-name");
-contactEmail = document.getElementById("contact-email");
-contactProject = document.getElementById("contact-project");
-contactMessage = document.getElementById("contact-message");
 
-const sendEmail = (e) => {
-  e.preventDefault();
 
-  //check if the field has a value
-  if (
-    contactName.value === "" ||
-    contactEmail.value === "" ||
-    contactProject.value === ""
-  ) {
-    //add and remove color
-    contactMessage.classList.remove("color-blue");
-    contactMessage.classList.add("color-red");
-
-    //show message
-    contactMessage.textContent = "Write all the input fields 📩";
-  } else {
-    // serviceID - templateID - #form - publicKey
-    emailjs
-      .sendForm(
-        "service_31n72k9",
-        "template_0e382y2",
-        "#contact-form",
-        "p2B2rS1_nODY8L-fn"
-      )
-      .then(
-        () => {
-          //show message and add color
-          contactMessage.classList.add("color-blue");
-          contactMessage.textContent = "Message sent ✅";
-
-          //remove message after five seconds
-          setTimeout(() => {
-            contactMessage.textContent = "";
-          }, 5000);
-        },
-        (error) => {
-          alert("OOPS! SOMETHING HAS FAILED...", error);
-        }
-      );
-    // to clear the input field
-    contactName.value = " ";
-    contactEmail.value = " ";
-    contactProject.value = " ";
-  }
-};
-contactForm.addEventListener("submit", sendEmail);
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll("section[id]");
