@@ -609,8 +609,9 @@ body.dark-theme {
 }
 
 .projects__img {
-  width: 250px;
+  width: 340px;
   border-radius: 0.75rem;
+  height: 270px !important;
   margin-bottom: 1.25rem;
 }
 
