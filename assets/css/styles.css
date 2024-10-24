@@ -161,7 +161,7 @@ body.dark-theme {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
-  margin-inline: 1.5rem;
+  margin-inline: 0.5rem;
 }
 
 .grid {
@@ -171,6 +171,7 @@ body.dark-theme {
 
 .section {
   padding: 0rem;
+
 }
 
 .section__border {
@@ -208,6 +209,7 @@ body.dark-theme {
   left: 0;
   z-index: var(--z-fixed);
 }
+
 
 .nav {
   height: calc(var(--header-height) + 0.5rem);
@@ -299,6 +301,7 @@ body.dark-theme {
 .home__container {
   row-gap: 4rem;
   padding-top: 2rem;
+
 }
 
 .home__data {
@@ -1137,6 +1140,7 @@ body.dark-theme {
   .change-theme:hover {
     color: var(--title-color);
   }
+  
 
   .section {
     padding-block: 8rem 0;
@@ -1145,6 +1149,7 @@ body.dark-theme {
   .home__title {
     font-size: 2.25rem;
   }
+  
 
   .scrollup {
     right: 3rem;
