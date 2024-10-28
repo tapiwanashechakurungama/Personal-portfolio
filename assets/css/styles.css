@@ -742,7 +742,9 @@ body.dark-theme {
   top: initial;
   bottom: 0.5rem;
 }
-
+input::placeholder{
+  font-style: italic !important;
+}
 .testimonial__container .swiper-button-prev {
   left: calc(50% - 3rem);
 }
