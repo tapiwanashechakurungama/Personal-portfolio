@@ -612,7 +612,7 @@ body.dark-theme {
 }
 
 .projects__img {
-  width: 340px;
+  width: 320px;
   border-radius: 0.75rem;
   height: 270px !important;
   margin-bottom: 1.25rem;
@@ -998,6 +998,7 @@ input::placeholder{
   .container {
     margin-inline: 1rem;
   }
+  
 
   .nav__menu {
     padding-bottom: 4rem;
@@ -1357,4 +1358,11 @@ input::placeholder{
   .footer__copy {
     margin-top: 5rem;
   }
+}
+.section__title{
+    margin-top: 5vh !important;
+  }
+
+body{
+  padding: 20px;
 }
