@@ -148,7 +148,7 @@ const sr = ScrollReveal({
   distance: "60px",
   duration: 2500,
   delay: 400,
-  // reset: true /*Animations repeat*/
+  reset: true /*Animations repeat*/
 });
 
 sr.reveal(
@@ -167,3 +167,15 @@ const current = new Date().getFullYear()
 
 
 year.innerText = current;
+
+const cursor = document.getElementById("cursor")
+const noti = document.getElementById("noti")
+
+
+cursor.addEventListener("click",()=>{
+  noti.classList.add("show-noti");
+})
+
+setTimeout(()=>{
+ noti.classList.add("show-noti");
+},5000)
